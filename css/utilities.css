@@ -1,0 +1,36 @@
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* bgs & colored btn */
+.bg-dark {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.bg-dark a {
+    color: #fff;
+}
