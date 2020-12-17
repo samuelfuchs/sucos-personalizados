@@ -49,14 +49,10 @@ h2 {
     display: flex;
 }
 
-.navbar a {
+.navbar i {
     color: #fff;
-    padding: 10px;
+    padding: 2px;
     margin: 0 5px;;
-}
-
-.navbar a:hover {
-    border-bottom: 2px #fff solid;
 }
 
 .navbar .flex {
@@ -88,7 +84,6 @@ h2 {
 }
 
 /* stats */
-
 .stats {
   padding-top: 60px;
 }
@@ -99,22 +94,7 @@ h2 {
   margin-bottom: 30px;
 }
 
-/* cardapio */
-.features-head img,
-.docs-head img {
-    width: 200px;
-    justify-self: flex-end;
-}
-
-.features-sub-head img {
-    width: 300px;
-    justify-self: flex-end;
-}
-
-.features-main .card > i {
-    margin-right: 20px;
-}
-
+/* features */
 .features-main .grid {
     padding: 30px;
 }
@@ -126,7 +106,30 @@ h2 {
   margin-right: 20px;
 }
 
+.impresum {
+  margin-bottom: 17px;
+  margin-top: 10px;
+}
+
 /* footer */  
 .footer .social a {
   margin: 0 10px;
+  float: right;
+}
+
+.footer {
+  padding-bottom: 20px;
+}
+
+.fa-facebook,
+.fa-instagram {
+    transition: color 0.2s;
+}
+
+.fa-facebook:hover {
+    color: #4267B2;
+}
+
+.fa-instagram:hover {
+    color: #FD1D1D;
 }
