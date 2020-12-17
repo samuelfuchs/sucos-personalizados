@@ -190,4 +190,11 @@ h2 {
 .footer h1 {
   font-size: 25px;
 }
+.flex {
+  flex-direction: column;
+}
+.card-img {
+  margin-bottom: 20px;
+}
+
 }
